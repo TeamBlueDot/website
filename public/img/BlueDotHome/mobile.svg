@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4D4D4D;}
+	.st1{fill:#666666;}
+	.st2{fill:#29ABE2;}
+	.st3{fill:none;}
+	.st4{font-family:'Algerian';}
+	.st5{font-size:48px;}
+	.st6{font-size:59.3552px;}
+</style>
+<image style="overflow:visible;opacity:0.43;" width="741" height="337" xlink:href="../Downloads/WeChat_Image_20200522074536-removebg-preview.png"  transform="matrix(2.0081 0 0 2.8535 -16 115)">
+</image>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M1777.9,1028.3H1469c-29,0-52.6-23.5-52.6-52.6V184.9c0-29,23.5-52.6,52.6-52.6h308.9
+			c29,0,52.6,23.5,52.6,52.6v790.9C1830.4,1004.8,1806.9,1028.3,1777.9,1028.3z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g transform="matrix(1 0 0 1 1.220703e-04 0)" style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="860" height="689" xlink:href="WeChat Image_20200522075743.png"  transform="matrix(0.5826 1.650723e-03 -3.318949e-03 1.1713 1332.2186 143.2917)">
+		</image>
+	</g>
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:none;stroke:#4D4D4D;stroke-width:12;stroke-miterlimit:10;"/>
+</g>
+<path class="st0" d="M1721.2,172.3h-184.4c-8.2-3.2-13.9-10.6-14.6-19c-0.9-9.7,5.1-19.2,14.6-23c61.5,0,122.9,0,184.4,0
+	c1.3,1.1,9.6,8.1,10,20C1731.6,163.5,1722.3,171.4,1721.2,172.3z"/>
+<ellipse class="st1" cx="1627.4" cy="150.8" rx="9" ry="4.5"/>
+<rect x="1668" y="186" class="st2" width="155" height="155"/>
+<image style="overflow:visible;" width="300" height="300" xlink:href="man.png"  transform="matrix(0.7867 0 0 0.8367 1539 188)">
+</image>
+<line class="st3" x1="878" y1="-563" x2="1253" y2="-563"/>
+<image style="overflow:visible;" width="300" height="300" xlink:href="doll.png"  transform="matrix(0.8967 -2.561939e-03 3.657098e-03 1.28 1393 722.7686)">
+</image>
+<image style="overflow:visible;" width="110" height="110" xlink:href="WeChat Image_20200521224447.png"  transform="matrix(0.9955 0 0 0.9424 1564.5 896)">
+</image>
+<text transform="matrix(1 0 0 1 1491.5835 405.0835)" class="st4 st5">XYZ</text>
+<text transform="matrix(0.5806 0 0 1 1688.584 405.4727)" class="st4 st6">HOTEL</text>
+</svg>
