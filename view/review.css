@@ -1,5 +1,17 @@
 
 .review-pannel{
 	width: 100%;
-	
+	margin-top: 0;
+	left: 0;
+	right: 0;
+}
+.review-pannel:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.review-pannel .review-col{
+	float: left; 
+	width: 33.33%;
 }
