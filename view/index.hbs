@@ -58,6 +58,10 @@
                     box-shadow: 0 4px 8px solid black;
                 }
                 @media screen and (max-width:880px){
+                    .review-pannel{
+                         margin-top: 21%;
+                         margin-bottom: 2%;
+                     }
                     .review-pannel img{
                         margin: auto;
                         width: 88%;
@@ -67,23 +71,22 @@
                         margin-bottom: 0;
                     }
                     .image-2{
-                        margin-top: 1%;
+                        margin-top: 2%;
                         margin-bottom: 20px;
                     }
                 }
                  @media screen and (max-width:600px){
+                     .review-pannel{
+                         margin-top: 21%;
+                         margin-bottom: 2%;
+                     }
                      .review-pannel img{
-                        margin: auto;
-                        width: 88%;
-                        margin-top: 20%;
-                    }
-                    .image-1{
-                        margin-bottom: 0;
-                    }
-                    .image-2{
+                        /*margin: auto;*/
                         margin-top: 1%;
-                        margin-bottom: 20px;
+                        width: 88%;
+                       
                     }
+                    
                  }
             </style>
    </head>
@@ -123,9 +126,9 @@
                                     <nav>
                                         <ul id="navigation">                                                                                                                                     
                                             <li><a href="#">Home</a></li>
-                                            <li><a href="/about">About</a></li>
+                                            <li><a href="#about">About</a></li>
                         
-                                            <li><a href="/contact">Contact</a></li>
+                                            <li><a href="#contact">Contact</a></li>
                                             <li class="add-list "><a href="#"><i class="ti-user"></i>  Sign in or Register</a></li>
 
                                         </ul>
@@ -164,6 +167,21 @@
         <!--Hero Area End-->
         <!-- Popular Locations Start -->
         <div class="popular-location section-padding30">
+            <div id="about">
+                <div style="text-align:center;">
+                    <br>
+                    <h2><b>About Us</b></h2>
+                    <p style="padding:2%;">
+                    Project BlueDot is initiated with a view to digitize the travel industry. Our concept is to connect
+                    people with places in real-time and explore nature's beauty on screen. It's a live tour app.
+                    Tourism Industry is one of the worst affected areas due to COVID-19 pandemic. Millions of people lost their jobs. 
+                    BlueDot project aims to minimize the effect of economic losses in the tourism areas. Our main objective is to
+                    provide a platform for local businesses like hotels, restaurants, travel agencies to promote their businesses 
+                    to international and local tourists.
+                    We welcome you all to work with us. Use Our Technology for your services.
+                    </p>
+                </div>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -363,7 +381,7 @@
         
 
     </main>
-    <footer>
+    <footer id="contact">
         <!-- Footer Start-->
         <div class="footer-area">
             <div class="container">
@@ -375,6 +393,9 @@
                                     <!-- logo -->
                                     <div class="footer-logo">
                                         <a href="/"><img src="/img/logo/bluedot_logo.png" alt=""></a>
+                                        <br>
+                                        <br><br>
+                                        <a href="#contact">Contact</a>
                                     </div>
                                 </div>
                             </div>
