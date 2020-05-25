@@ -22,6 +22,63 @@
             <link rel="stylesheet" href="/css/nice-select.css">
             <link rel="stylesheet" href="/css/style.css">
             <link rel="stylesheet" href="/css/review.css">
+            <style>
+                .review-pannel{
+                    text-align: center;
+                    margin-top: 4%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .review-pannel::after{
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                .review-pannel img{
+                    width: 38%;
+                }
+                .review-pannel .review-col{
+                    width: 25%;
+                    float: left;
+                }
+                .review-col img{
+                    width: 99%;
+                    margin-left: 12px;
+                    height: auto;
+                    margin: auto;
+                    display: inline-block;
+                    border-radius: 5%;
+                   
+                }
+                .review-pannel .image{
+                    border-radius: 20px;
+                }
+                .review-pannel .image:hover{
+                    transform: scale(1.01);
+                    opacity: 2;
+                    box-shadow: 0 4px 8px solid black;
+                }
+                @media screen and (max-width:880px){
+                    .review-pannel img{
+                        margin: auto;
+                        width: 88%;
+                        margin-top: 10%;
+                    }
+                    .image-2{
+                        margin-top: 3%;;
+                    }
+                }
+                 @media screen and (max-width:600px){
+                     .review-pannel img{
+                        margin: auto;
+                        width: 88%;
+                        margin-top: 20%;
+                    }
+                    .image-2{
+                        margin-top: 3%;;
+                    }
+                 }
+            </style>
    </head>
 
    <body>
@@ -49,7 +106,7 @@
                             <!-- Logo  -->
                             <div class="col-xl-2 col-lg-2 col-md-1">
                                 <div class="logo">
-                                 <a href="#"><img src="/img/logo/bluedot_logo.png" alt=""></a>
+                                 <a href="#"><img src="/img/logo/bluedot_logo.png" alt="" ></a>
                                 </div>
                                 
                             </div>
@@ -82,15 +139,14 @@
     <main>
 
         <!-- Hero Area Start-->
-        <div class="slider-area ">
+        <div class="slider-area " style="text-align: center; margin-left:auto; margin-right:auto;">
             <div class="single-slider  slider-height d-flex align-items-center">
                 <div class="review-pannel"><!-- being start review-pannel -->
-                    <!--    
-                    <div class="review-col"> 1 review-col </div>
-                    <div class="review-col"> 2 review-col</div>
-                    <div class="review-col"> 3 review-col</div>
-                    <div class="review-col"> 4 review-col</div>
-                    -->
+                        <img class="image" src="/img/BlueDotHome/Get started.svg" alt="Explore image" />
+                    
+        
+               
+                        <img class="image image-2" src="/img/BlueDotHome/Explore.svg" alt="Explore image"  />
                 </div><!-- review-pannel end -->
         
             </div>
